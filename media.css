@@ -1,0 +1,54 @@
+@media only screen and (min-width:320px) and (max-width:450px) {
+    .container h5 {
+
+        font-size: 8px;
+    }
+
+    .heading .map {
+
+        font-size: 8px;
+    }
+
+    .container ul {
+        gap: 13px;
+        padding-left: 6px;
+        font-size: 8px;
+
+    }
+
+    .heading .head h2 {
+        font-size: 17px;
+    }
+
+    .line {
+
+        gap: 13px;
+
+        font-size: 9px;
+    }
+
+    .overlay-text {
+
+        font-size: 4px;
+        padding: 3px;
+    }
+    .overlay-text1 {
+        font-size: 5px;
+        bottom: 12%;
+    }
+    .overlay-text2 {
+        font-size: 5px;
+        bottom: 9%;
+        left: 25%;
+    }
+
+    .inputbox input {
+        width: 23em;
+
+        @media (max-width: 768px) {
+            .overlay-text {
+                bottom: 6px;
+                font-size: 6px;
+            }
+        }
+    }

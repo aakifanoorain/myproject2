@@ -1,0 +1,800 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 15px solid rgb(86, 43, 116); */
+}
+
+body {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(36, 36, 97);
+    color: white;
+    justify-content: center;
+    text-align: center;
+    height: 27px;
+
+
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+
+.container ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 26px;
+    text-decoration: underline;
+    align-items: center;
+    padding-left: 14px;
+    font-size: 16px;
+
+}
+
+.container ul li {
+    list-style: none;
+}
+
+
+
+.img1 img {
+    width: 100%;
+}
+
+.container h5 {
+    display: flex;
+    justify-content: center;
+    padding-top: 6px;
+}
+
+.container h6 {
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+}
+
+
+
+.heading {
+    height: 50vw;
+    width: 100vw;
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    background-color: transparent;
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .3)), url('https://media.tommy.com/us/static/images/scheduled_marketing/2024/05/23_HP_FullTile01_dt.jpg')no-repeat;
+    /* background: url('https://media.tommy.com/us/static/images/scheduled_marketing/2024/05/23_HP_FullTile01_dt.jpg') no-repeat; */
+    background-size: cover;
+    overflow: hidden;
+}
+
+.line {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+    color: rgb(249, 249, 250);
+    font-family: "PT Sans", sans-serif;
+
+}
+
+.line li {
+    list-style: none;
+}
+
+.heading .map {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: rgb(243, 230, 230);
+    padding: 10px;
+}
+
+.heading .head h2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 31px;
+    color: rgb(245, 241, 241);
+
+}
+
+
+
+.heading .maps.icons ul {
+    color: rgb(253, 253, 253);
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: right;
+    font-size: 1em;
+    gap: 20px;
+
+}
+
+.icons ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.row {
+
+    font-size: 22px;
+    color: rgb(250, 249, 249);
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5em;
+}
+
+.row h3 {
+    font-family: "Jost", sans-serif;
+    font-size: 31px;
+}
+
+.row h2 {
+    font-family: "Secular One", sans-serif;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.two {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 70px;
+    justify-content: left;
+}
+
+.two li {
+    border-bottom: 1px solid;
+    padding: 5px;
+    list-style: none;
+    font-family: "Teachers", sans-serif;
+}
+
+.row p {
+    width: 22em;
+    height: auto;
+    font-family: "Teachers", sans-serif;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.bx {
+
+    font-size: 23px;
+}
+
+.seconds {
+    display: flex;
+}
+
+.second .image,
+.second1 .image1 {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+
+}
+
+
+.first {
+    height: 50vw;
+    width: 100%;
+    /* background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.9)),url('./mjw3hgws.png')no-repeat; */
+    background: url('./mjw3hgws.png') no-repeat;
+    background-size: cover;
+}
+
+
+/* .second .row1 {
+
+    font-size: 20px;
+    color: rgb(240 226 226);
+    position: absolute;
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    bottom: 4em;
+} */
+
+.row1 h4 {
+    font-size: 30px;
+    font-family: "Secular One", sans-serif;
+}
+
+.row1 p {
+    width: 23em;
+    height: auto;
+    font-family: "Teachers", sans-serif;
+}
+
+
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 5px;
+}
+
+.image-container {
+    position: relative;
+    max-width: 100%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    font-size: 20px;
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    transform: translate(-50%, 10px);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: calc(100% - 40px);
+
+}
+
+.overlay-text h3,
+.overlay-text h4,
+.overlay-text p {
+    margin: 5px 0;
+}
+
+.overlay-text1 {
+
+    font-size: 25px;
+    position: absolute;
+    bottom: 26%;
+    left: 50%;
+    transform: translate(-50%, 10px);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: calc(100% - 40px);
+
+}
+
+.overlay-text1 h3,
+.overlay-text1 p {
+    margin: 5px 0;
+}
+
+.overlay-text2 {
+    font-size: 24px;
+    position: absolute;
+    bottom: 9%;
+    left: 26%;
+    transform: translate(-50%, 10px);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: calc(100% - 40px);
+
+}
+
+.overlay-text2 h3,
+.overlay-text2 p {
+    margin: 5px 0;
+}
+
+.two1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    /* Adjust spacing between text and list */
+}
+
+.two1 li {
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    font-family: "Teachers", sans-serif;
+    flex: 1 1 50%;
+    /* Adjust item width */
+    max-width: 200px;
+    /* Limit maximum width */
+}
+
+
+
+.two2 {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: left;
+
+}
+
+.two2 li {
+
+    border-bottom: 1px solid;
+    list-style: none;
+    padding: 5px;
+    font-family: "Teachers", sans-serif;
+
+}
+
+.row2 {
+    font-size: 20px;
+    color: rgb(240 226 226);
+    position: absolute;
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    bottom: 5em;
+}
+
+.row2 h1 {
+    font-family: "Secular One", sans-serif;
+    position: absolute;
+    transform: translate();
+    color: beige;
+}
+
+.row2 p {
+    font-family: "Teachers", sans-serif;
+    line-height: 100px;
+}
+
+
+.row3 h3 {
+    font-size: 30px;
+    font-family: "Secular One", sans-serif;
+
+}
+
+.row3 p {
+    width: 22em;
+    height: auto;
+    font-family: "Teachers", sans-serif;
+}
+
+.two3 {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: left;
+
+}
+
+.two3 li {
+    border-bottom: 1px solid;
+    padding: 5px;
+    list-style: none;
+    font-family: "Teachers", sans-serif;
+
+}
+
+.first {
+    position: relative;
+}
+
+.row3 {
+    font-size: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(238, 231, 231);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    position: absolute;
+    bottom: 5em;
+    text-align: center;
+
+
+}
+
+.sa {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    text-align: center;
+    font-family: "Teachers", sans-serif;
+    color: rgb(14, 14, 95);
+    margin-bottom: 45px;
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 73px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.sa li {
+
+    border-bottom: 1px solid;
+    padding: 5px;
+    list-style: none;
+}
+
+.image3 {
+    background: url(mzwizkvc.png)no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vw;
+    position: relative;
+}
+
+.image3 .a {
+
+    width: 100%;
+
+}
+
+.image3 .row4 {
+    font-size: 22px;
+    color: rgb(240 226 226);
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 5em;
+
+}
+
+.row4 h1 {
+    font-family: "Secular One", sans-serif;
+    font-size: 30px;
+    letter-spacing: 0;
+}
+
+.row4 p {
+    font-family: "Teachers", sans-serif;
+    font-size: 20px;
+
+}
+
+.two4 li {
+    border-bottom: 1px solid;
+    padding: 5px;
+    list-style: none;
+    font-family: "Teachers", sans-serif;
+
+
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    ;
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.as h1 {
+
+    justify-content: center;
+    text-align: center;
+    color: rgb(10, 10, 68);
+    font-size: 35px;
+    font-family: "Secular One", sans-serif;
+    margin-top: 30px;
+    animation: blink 3s linear infinite;
+}
+
+
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 96%;
+    margin: auto;
+
+}
+
+.shop {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 20%; */
+}
+
+.shop1,
+.shop2,
+.shop3,
+.shop4 {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(17, 17, 59);
+}
+
+.img1:hover {
+    transform: scale(1.09);
+}
+
+.img2:hover {
+    transform: scale(1.09);
+}
+
+.img3:hover {
+    transform: scale(1.09);
+}
+
+.img4:hover {
+    transform: scale(1.09);
+}
+
+.box .shop img {
+    width: 100%;
+}
+
+.box p {
+    font-family: "Teachers", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.box h1 {
+    font-size: 23px;
+    font-weight: 600;
+
+    font-family: "Secular One", sans-serif;
+}
+
+.box li {
+    font-family: "Secular One", sans-serif;
+    font-size: 18px;
+    border-bottom: 1px solid;
+    text-decoration: none;
+    list-style: none;
+    width: 100px;
+}
+
+.seconds {
+    position: relative;
+}
+
+.container1 {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    flex-direction: column;
+    border: none;
+}
+
+.inputbox {
+    text-align: center;
+}
+
+.para {
+
+    justify-content: center;
+    /* text-align: center; */
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    height: 500px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.at {
+    color: rgb(15, 15, 63);
+}
+
+.at h1 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Secular One", sans-serif;
+}
+
+.at p {
+    font-family: "Teachers", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.inputbox input {
+    width: 30em;
+    height: 50px;
+    border-color: black;
+    color: rgb(82, 81, 81);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.inputbox button {
+    width: 11em;
+    height: 50px;
+    background-color: rgb(37, 37, 95);
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    font-family: "Teachers", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#p1 {
+    color: rgb(31, 31, 87);
+    width: 75%;
+    font-size: 15px;
+    font-family: "Teachers", sans-serif;
+    font-weight: 600;
+}
+
+.footer1 {
+    display: flex;
+}
+
+.footerp {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.p1 input {
+    color: rgb(15, 15, 66);
+}
+
+.rows {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+
+}
+
+.footer2 {
+    padding: 70px 0;
+}
+
+.footer-col {
+
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: rgb(26, 26, 70);
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 900;
+    position: relative;
+    font-family: "Teachers", sans-serif;
+
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgb(41, 41, 97);
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease;
+    font-family: "Teachers", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+
+a {
+    color: #25255d;
+}
+
+.head {
+    margin-top: 49px;
+}
+
+.head h2 {
+    color: rgb(24, 24, 94);
+    font-family: "Rajdhani", sans-serif;
+}
+
+.head p {
+    color: rgb(20, 20, 58);
+    font-family: "Teachers", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    font-size: 20px;
+}
+
+.footer-col ul li :hover {
+    text-decoration: underline;
+
+}
