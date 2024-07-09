@@ -593,7 +593,7 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    row-gap: 12px;
+    row-gap: 8px;
     align-items: center;
     color: rgb(17, 17, 59);
 }
