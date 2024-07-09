@@ -265,11 +265,25 @@ body {
 }
 
 .overlay-text {
-    font-size: 20px;
+    font-size: 21px;
     position: absolute;
-    bottom: 8%;
     left: 50%;
-    transform: translate(-50%, 10px);
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: calc(100% - 40px);
+
+}
+
+.overlay-texts {
+    font-size: 26px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     color: white;
     text-align: center;
     padding: 10px;
@@ -284,13 +298,18 @@ body {
     margin: 5px 0;
 }
 
-.overlay-text1 {
+.overlay-texts h3,
+.overlay-texts h4,
+.overlay-texts p {
+    margin: 5px 0;
+}
 
-    font-size: 25px;
+.overlay-text1 {
+    font-size: 27px;
     position: absolute;
-    bottom: 26%;
     left: 50%;
-    transform: translate(-50%, 10px);
+    top: 51%;
+    transform: translate(-50%, -50%);
     color: white;
     text-align: center;
     padding: 10px;
@@ -305,11 +324,11 @@ body {
 }
 
 .overlay-text2 {
-    font-size: 24px;
+    font-size: 30px;
     position: absolute;
-    bottom: 9%;
-    left: 26%;
-    transform: translate(-50%, 10px);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     color: white;
     text-align: center;
     padding: 10px;
@@ -574,6 +593,7 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+    row-gap: 12px;
     align-items: center;
     color: rgb(17, 17, 59);
 }
@@ -773,6 +793,7 @@ a {
 
 .head {
     margin-top: 49px;
+    padding: 14px;
 }
 
 .head h2 {
